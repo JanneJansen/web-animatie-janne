@@ -65,8 +65,8 @@ document.addEventListener('keydown', function(event) {
 document.addEventListener('keydown', function(event) {
   if (event.keyCode === 32) {
             achtergrond.classList.toggle('gradient');
+      
             for (i=0; i < textTransition.length; i++) {
-                console.log(textTransition[i])
                 textTransition[i].classList.toggle('p');
             }
   }
