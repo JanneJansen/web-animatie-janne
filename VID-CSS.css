@@ -15,16 +15,8 @@ body    {
 svg{
     width: 30vw;
     cursor: pointer;
-           
+
 }
-
-    svg:hover{
-        
-    transition-timing-function: ease-in-out;
-    transform: scale(1.1);
-    }    
-    
-
 
 svg > g#ring1{
     fill: #954C4D;
@@ -310,8 +302,7 @@ p:nth-child(14) {
       transform: translateX(-35em);
     }
 
-}
-
+    }
         
     
 
@@ -549,10 +540,10 @@ p:nth-child(14) {
 
 /*Iphone*/
 
-@media (max-width:48em){
+@media (max-width:375px){
     
      svg{
-        width: 70vw;
+        width: 80vw;
         margin-top: -250px;
     }
     
@@ -987,7 +978,7 @@ svg > g#ring10{
 /*Bron: https://css-tricks.com/almanac/properties/a/animation/*/
     
 .gradient  {
-  animation: achtergrondgradient 2s ease-in-out infinite;
+  animation: achtergrondgradient 3s ease-in-out infinite;
 }
 
 @keyframes achtergrondgradient {
@@ -1009,9 +1000,9 @@ svg > g#ring10{
 
 /*bron: milou nth-child optellen */
 
-p:nth-child(-n+14) {
+p {
     
-animation: opacitytext 10s;
+animation: opacitytext 5s;
     
     
 }
@@ -1049,13 +1040,7 @@ animation: textTransition 3s infinite;
 }
     }
 
-/*
-.cls-10:hover{
-    
-    fill: #738440;
-           
-}
-*/
+
 
     
 
