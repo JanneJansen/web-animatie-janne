@@ -17,6 +17,7 @@ var textTransition = document.querySelectorAll('.schuifTransition');
 
 svg.addEventListener('click', function() {
     svg.classList.toggle('turn');
+    setTimeout(function(){svg.classList.remove('turn')}, 1500);
     
 });
 

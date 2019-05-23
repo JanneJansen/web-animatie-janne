@@ -773,11 +773,13 @@ p:nth-child(14) {
 
 /*ANIMATIe*/
 
+/*
  svg:hover{
     
     transform: scale(1.1);
     transition: 1s ease-in;
     } 
+*/
     
 svg > g#ring1{
   animation: slidein 0.2s;
@@ -1007,23 +1009,7 @@ svg > g#ring10{
     }  
 }
 
-/*bron: milou nth-child optellen */
 
-p {
-    
-animation: opacitytext 5s;
-    
-    
-}
-
-@keyframes opacitytext{
-    0%{
-        opacity:0;
-    }
-    100%{
-        opacity:1;
-    }
-}
 
 
 
@@ -1050,7 +1036,20 @@ animation: textTransition 3s infinite;
     }
 
 
+/*bron: milou nth-child optellen */
 
+p {
+    animation: opacitytext 5s ;  
+}
+
+@keyframes opacitytext{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
     
 
 
