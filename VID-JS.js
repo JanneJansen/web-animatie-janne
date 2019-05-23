@@ -66,8 +66,8 @@ document.addEventListener('keydown', function(event) {
 //    
 //})
 
-document.addEventListener('click', function() {
-            tekst1.classList.toggle('schuif1')
+schuifTest.addEventListener('click', function() {
+    tekst1.classList.toggle('schuif1')
     tekst2.classList.toggle('schuif2')
     tekst3.classList.toggle('schuif2')
     tekst4.classList.toggle('schuif3')
