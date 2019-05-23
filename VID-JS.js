@@ -60,21 +60,34 @@ document.addEventListener('keydown', function(event) {
 
 });
  
-document.addEventListener('click', function(){
-   achtergrond.classList.toggle('gradient');
-    
-    for (i=0; i < textTransition.length; i++) {
-                console.log(textTransition[i])
-                textTransition[i].classList.toggle('p');
-    }
-        
-    
+//document.addEventListener('click', function(){
+//   achtergrond.classList.toggle('gradient');
+//        
+//    
+//})
+
+document.addEventListener('click', function() {
+            tekst1.classList.toggle('schuif1')
+    tekst2.classList.toggle('schuif2')
+    tekst3.classList.toggle('schuif2')
+    tekst4.classList.toggle('schuif3')
+    tekst5.classList.toggle('schuif4')
+    tekst6.classList.toggle('schuif5')
+    tekst7.classList.toggle('schuif6')
+    tekst8.classList.toggle('schuif7')
+    tekst9.classList.toggle('schuif8')
+    tekst10.classList.toggle('schuif9')
+    tekst11.classList.toggle('schuif10')
+    tekst12.classList.toggle('schuif11')
+          ;
 });
+                          
+
+
+
 
 
 //bron: Milou/Niels
-
-
 
 document.addEventListener('keydown', function(event) {
   if (event.keyCode === 32) {
