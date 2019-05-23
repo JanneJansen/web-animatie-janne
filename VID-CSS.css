@@ -771,7 +771,12 @@ p:nth-child(14) {
 
 
 /*ANIMATIe*/
+
+ svg:hover{
     
+    transform: scale(1.1);
+    transition: 1s ease-in;
+    } 
     
 svg > g#ring1{
   animation: slidein 0.2s;
@@ -971,6 +976,9 @@ svg > g#ring10{
     }
 }
     
+
+
+
 .aanschuiven{
     cursor:pointer;
 }  
