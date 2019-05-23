@@ -309,7 +309,7 @@ p:nth-child(14) {
 
 /*Ipad Pro*/
 
-@media (max-width:768px){
+@media (max-width:1024px){
     
     svg{
         width: 70vw;}
@@ -544,7 +544,7 @@ p:nth-child(14) {
     
      svg{
         width: 80vw;
-        margin-top: -250px;
+        margin-top: 50px;
     }
     
  p:nth-child(1) {
@@ -554,7 +554,7 @@ p:nth-child(14) {
     font-weight: 590;
     position: absolute;
     left: 49%;
-    bottom: 58%;
+    bottom: 32%;
     
     
 }
@@ -568,7 +568,7 @@ p:nth-child(2) {
    
     position: absolute;
     left: 77%;
-    bottom: 58%;
+    bottom: 32%;
     
 }
 
@@ -581,7 +581,7 @@ p:nth-child(3) {
    
     position: absolute;
     left:15%;
-    bottom:58%;
+    bottom:33%;
     
 }
 
@@ -592,7 +592,7 @@ p:nth-child(4) {
     font-weight: 100;
     position: absolute;
   left:18%;
-  bottom:56.5%;
+  bottom:31%;
     
 }
 
@@ -603,7 +603,7 @@ p:nth-child(5) {
     font-weight: 100;
     position: absolute;
   left:21%;
-  bottom:55%;
+  bottom:29%;
     
 }
 
@@ -614,7 +614,7 @@ p:nth-child(6) {
     font-weight: 100;
     position: absolute;
   left:24%;
-  bottom:52.5%;
+  bottom:25%;
     
 }
 
@@ -625,7 +625,7 @@ p:nth-child(7) {
     font-weight: 100;
     position: absolute;
   left:27%;
-  bottom:51%;
+  bottom:23%;
     
 }
 
@@ -636,7 +636,7 @@ p:nth-child(8) {
     font-weight: 100;
     position: absolute;
     left:30%;
-    bottom:49.5%;
+    bottom:21%;
     
     
 }
@@ -648,7 +648,7 @@ p:nth-child(9) {
     font-weight: 100;
      position: absolute;
   left:33%;
-  bottom:47%;
+  bottom:17%;
     
 }
 
@@ -659,7 +659,7 @@ p:nth-child(10) {
     font-weight: 100;
      position: absolute;
   left:36.5%;
-  bottom:45.5%;
+  bottom:15%;
     
     
 }
@@ -672,7 +672,7 @@ p:nth-child(11) {
     font-weight: 600;
      position: absolute;
   left:67.5%;
-  bottom:44%;
+  bottom:12%;
     
     
 }
@@ -684,7 +684,7 @@ p:nth-child(12) {
     font-weight: 600;
      position: absolute;
   left:36%;
-  bottom:42.5%;
+  bottom:10%;
     
     
 }
@@ -696,7 +696,7 @@ p:nth-child(13) {
     font-weight: 700;
      position: absolute;
   left:37%;
-  bottom:41%;
+  bottom:3%;
     
     
 }
@@ -708,7 +708,7 @@ p:nth-child(14) {
     font-weight: 700;
     position: absolute;
   left:51%;
-  bottom:41%;   
+  bottom:3%;   
 }  
     
     
