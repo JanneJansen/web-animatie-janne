@@ -440,7 +440,7 @@ p:nth-child(11) {
     font-size: 7px;
     font-weight: 600;
      position: absolute;
-  left:70%;
+  left:58%;
   bottom:12.9%;
     
     
@@ -452,7 +452,7 @@ p:nth-child(12) {
     font-size: 7px;
     font-weight: 600;
      position: absolute;
-  left:46%;
+  left:41%;
   bottom:12%;
     
     
@@ -489,7 +489,7 @@ p:nth-child(14) {
     
     
 .schuif1{
-      transform: translateX(20.5em);
+      transform: translateX(45.5em);
    
     }
     
@@ -498,42 +498,42 @@ p:nth-child(14) {
     
     }
 .schuif3{
-      transform: translateX(17em);
+      transform: translateX(40em);
 
     }
 .schuif4{
-      transform: translateX(.5em);
+      transform: translateX(21.5em);
 
     }
 .schuif5{
-      transform: translateX(14.5em);
+      transform: translateX(33.5em);
 
     }
 
 .schuif6{
-      transform: translateX(6em);
+      transform: translateX(24em);
 
     }
 
 .schuif7{
-      transform: translateX(2.5em);
+      transform: translateX(19em);
 
     }
 .schuif8{
-      transform: translateX(-4.5em);
+      transform: translateX(10.4em);
  
     }
 .schuif9{
-      transform: translateX(-11em);
+      transform: translateX(3em);
 
     }
     
 .schuif10{
-      transform: translateX(-15em);
+      transform: translateX(3em);
 
     }
 .schuif11{
-      transform: translateX(-18em);
+      transform: translateX(5em);
     }
     
 }
@@ -673,6 +673,7 @@ p:nth-child(11) {
      position: absolute;
   left:67.5%;
   bottom:12%;
+  
     
     
 }
